@@ -1,5 +1,5 @@
-CC = g++
+CC = gcc
 
 all:
-	$(CC) -o su sudo.cxx
+	$(CC) -o su sudo.c
 	strip su.exe
